@@ -1,6 +1,6 @@
 # MSAtest
 
-# Building & Running
+## Building & Running
 
 ```
 	docker build --rm -t net3754/msatest .
