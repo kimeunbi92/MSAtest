@@ -1,6 +1,6 @@
 # MSAtest
 
-## Building & Running
+## Building & Running ("net3754" is username)
 
 ```
 	docker build --rm -t net3754/msatest .
@@ -8,7 +8,7 @@
 ```
 
 
-To test, ("net3754" is username. )
+## Test
 ```
 	open 127.0.0.1:8888
 ```
