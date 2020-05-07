@@ -12,14 +12,6 @@ deployment.apps/msatest created
 ```
 
 ```
-kubectl expose deploy/msatest --type="NodePort" --port 80
-```
-```
-#success
-deployment.apps/msatest created
-```
-
-```
 kubectl scale deploy msatest --replicas=20
 ```
 ```
@@ -51,4 +43,10 @@ msatest-6974d968fb-z7rlb   1/1     Running   0          18m     172.33.37.12   n
 
 ```
 
-
+```
+kubectl expose deploy/msatest --type="NodePort" --port 80
+```
+```
+#success
+deployment.apps/msatest created
+```
