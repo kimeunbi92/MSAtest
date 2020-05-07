@@ -3,7 +3,7 @@
 # Kubernetes Deploy
 
 ```
-## kubectl run msatest --image=net3754/msatest --port=80
+o kubectl run msatest --image=net3754/msatest --port=80
 ```
 ```
 #success
@@ -12,7 +12,7 @@ deployment.apps/msatest created
 ```
 
 ```
-## kubectl scale deploy msatest --replicas=20
+o kubectl scale deploy msatest --replicas=20
 ```
 ```
 #success
@@ -44,7 +44,7 @@ msatest-6974d968fb-z7rlb   1/1     Running   0          18m     172.33.37.12   n
 ```
 
 ```
-## kubectl expose deploy/msatest --type="NodePort" --port 80
+o kubectl expose deploy/msatest --type="NodePort" --port 80
 ```
 ```
 #success
